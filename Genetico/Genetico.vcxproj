@@ -151,22 +151,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\MochilaMochila\Mochila\Algoritmo.h" />
-    <ClInclude Include="..\..\MochilaMochila\Mochila\AlgoritmoMochila.h" />
-    <ClInclude Include="..\..\MochilaMochila\Mochila\Ambiente.h" />
-    <ClInclude Include="..\..\MochilaMochila\Mochila\AmbienteMochila.h" />
-    <ClInclude Include="..\..\MochilaMochila\Mochila\CriaturaMochila.h" />
-    <ClInclude Include="..\..\MochilaMochila\Mochila\Poblacion.h" />
-    <ClInclude Include="..\..\MochilaMochila\Mochila\ZonaFranca.h" />
+    <ClInclude Include="Algoritmo.h" />
+    <ClInclude Include="AlgoritmoMochila.h" />
+    <ClInclude Include="Ambiente.h" />
+    <ClInclude Include="AmbienteMochila.h" />
+    <ClInclude Include="Criatura.h" />
+    <ClInclude Include="CriaturaMochila.h" />
+    <ClInclude Include="Poblacion.h" />
+    <ClInclude Include="ZonaFranca.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\MochilaMochila\Mochila\AlgoritmoMochila.cpp" />
-    <ClCompile Include="..\..\MochilaMochila\Mochila\AmbienteMochila.cpp" />
-    <ClCompile Include="..\..\MochilaMochila\Mochila\CriaturaMochila.cpp" />
-    <ClCompile Include="..\..\MochilaMochila\Mochila\Mochila.cpp" />
-    <ClCompile Include="..\..\MochilaMochila\Mochila\Poblacion.cpp" />
-    <ClCompile Include="..\..\MochilaMochila\Mochila\ZonaFranca.cpp" />
     <ClCompile Include="Genetico.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -174,6 +169,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="AlgoritmoMochila.cpp" />
+    <ClCompile Include="AmbienteMochila.cpp" />
+    <ClCompile Include="CriaturaMochila.cpp" />
+    <ClCompile Include="Poblacion.cpp" />
+    <ClCompile Include="ZonaFranca.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

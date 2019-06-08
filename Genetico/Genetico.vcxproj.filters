@@ -18,26 +18,29 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\MochilaMochila\Mochila\Algoritmo.h">
+    <ClInclude Include="Algoritmo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\MochilaMochila\Mochila\AlgoritmoMochila.h">
+    <ClInclude Include="AlgoritmoMochila.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\MochilaMochila\Mochila\Ambiente.h">
+    <ClInclude Include="Ambiente.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\MochilaMochila\Mochila\AmbienteMochila.h">
+    <ClInclude Include="AmbienteMochila.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\MochilaMochila\Mochila\CriaturaMochila.h">
+    <ClInclude Include="CriaturaMochila.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\MochilaMochila\Mochila\Poblacion.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="Poblacion.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\MochilaMochila\Mochila\ZonaFranca.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="ZonaFranca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Criatura.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -47,22 +50,19 @@
     <ClCompile Include="Genetico.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\MochilaMochila\Mochila\AlgoritmoMochila.cpp">
+    <ClCompile Include="AlgoritmoMochila.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\MochilaMochila\Mochila\AmbienteMochila.cpp">
+    <ClCompile Include="AmbienteMochila.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\MochilaMochila\Mochila\CriaturaMochila.cpp">
+    <ClCompile Include="CriaturaMochila.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\MochilaMochila\Mochila\Mochila.cpp">
+    <ClCompile Include="Poblacion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\MochilaMochila\Mochila\Poblacion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\MochilaMochila\Mochila\ZonaFranca.cpp">
+    <ClCompile Include="ZonaFranca.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
